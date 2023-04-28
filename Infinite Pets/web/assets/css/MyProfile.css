@@ -1,0 +1,30 @@
+.wrapper{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    display: grid;
+    grid-template-areas: 
+        "title title"
+        "acctTable acctTable"
+        "editBtn saveBtn"
+        "deleteBtn deleteBtn";
+    row-gap: 10px;
+    column-gap: 20px;
+    padding: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: #F3F1EC;
+}
+
+.title{grid-area: title;}
+.acctTable{grid-area: acctTable;}
+.editBtn{grid-area: editBtn;}
+.deleteBtn{grid-area: deleteBtn;}
+.saveBtn{grid-area: saveBtn;}
